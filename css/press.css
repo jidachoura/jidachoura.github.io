@@ -123,13 +123,38 @@ header p {
   margin-bottom: 2em;
 }
 
-#image {
-   background-image: url('http://placehold.it/500x300');
+#image1 {
+   background-image: url('../img/press/i1.jpeg');
    background-size: cover;
    height: 250px;
    width: 200px;
 }
 
-#image:hover {
-   background-image: url('http://placehold.it/400x300');
+#image1:hover {
+   background-image: url('../img/press/i1-1.jpg');
+   background-position: center;
+}
+
+#image2 {
+   background-image: url('../img/press/xx.jpg');
+   background-size: cover;
+   height: 250px;
+   width: 200px;
+}
+
+#image2:hover {
+   background-image: url('../img/press/i2-1.jpg');
+   background-position: center;
+}
+
+#image3 {
+   background-image: url('../img/press/x.jpeg');
+   background-size: cover;
+   height: 250px;
+   width: 200px;
+}
+
+#image3:hover {
+   background-image: url('../img/press/i3-1.jpg');
+   background-position: center;
 }
