@@ -1,4 +1,7 @@
- html {
+*{
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+  html {
      margin: 0;
      padding: 0;
      height: 100%;
@@ -38,7 +41,6 @@
  nav.navbar-default {
      background: none;
      border: none;
-     font-family: 'open_sanscondensed_light';
      margin-bottom: 5px;
  }
 
@@ -214,6 +216,7 @@
  .navbar-default .nav > li.active > a,
  .navbar-default .nav > li.active > a:focus {
    color: rgb(148, 117, 204) !important;
+   font-family: Zapfino;
    background-color: transparent;
  }
  .navbar-default .nav > li.active > a:hover,
