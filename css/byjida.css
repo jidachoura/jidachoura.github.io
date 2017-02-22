@@ -1,9 +1,6 @@
 *{
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
-.logo {
-  font-family: Zapfino;
-}
 nav.navbar-default {
     font-family: 'open_sanscondensed_light';
     margin-bottom: 5px;
@@ -66,16 +63,15 @@ nav .nav li.slash::after {
   color: #eb3812;
 }
 .navbar-default .navbar-header .navbar-toggle {
-  font-weight: 700;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 14px;
   color: #222222;
   text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 13px;
+  font-size: 10px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -86,7 +82,6 @@ nav .nav li.slash::after {
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: rgb(148, 117, 204) !important;
-  font-family: Zapfino;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -151,4 +146,9 @@ header p {
 .k {
   height: 25.5em;
   width: 100em;
+}
+.navbar .logo > a {
+  color: rgb(148, 117, 204) !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
 }
