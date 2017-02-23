@@ -171,3 +171,12 @@ header p {
     max-height: 45em;
     width: 100em;
 }
+footer .footer-below {
+  padding: 25px 0;
+  background-color: rgb(41, 41, 41);
+}
+
+footer p {
+  margin: 0;
+  color: white;
+}
