@@ -152,6 +152,9 @@ header p {
   font-weight: 600 !important;
   font-size: 14px !important;
 }
+footer {
+  color: white;
+}
 footer .footer-below {
   padding: 25px 0;
   background-color: rgb(41, 41, 41);
@@ -160,4 +163,7 @@ footer .footer-below {
 footer p {
   margin: 0;
   color: white;
+}
+.copy-right {
+  padding-top: 1.2em;
 }

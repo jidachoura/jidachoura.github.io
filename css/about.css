@@ -68,7 +68,6 @@ nav .nav li.slash::after {
   color: #eb3812;
 }
 .navbar-default .navbar-header .navbar-toggle {
-  font-weight: 300;
   font-size: 12px;
   color: #222222;
   text-transform: uppercase;
@@ -76,9 +75,9 @@ nav .nav li.slash::after {
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   text-transform: uppercase;
-  font-weight: 300;
   font-size: 10px;
   color: #222222;
+
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -88,7 +87,7 @@ nav .nav li.slash::after {
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: rgb(148, 117, 204) !important;
-
+  font-family: Zapfino;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -143,8 +142,9 @@ header p {
   }
 
   .ma-img-1 {
-      width: 50em;
-      height: 43.5em;
+      height: auto;
+      width: auto;
+      min-height: 61.6em;
   }
 }
 
@@ -156,7 +156,7 @@ header p {
   .ma-img-1 {
       height: auto;
       width: auto;
-      min-height: 20em;
+      min-height: 41.6em;
   }
 }
 
@@ -164,24 +164,81 @@ header p {
   margin-bottom: 1em;
 }
 
-.si-img-2 {
-  max-height: 30em;
-}
-.si-img-1 {
-    max-height: 45em;
-    width: 100em;
-}
-
 .ma-img-2 {
     width: 40em;
-    max-height: 20em;
+    height: 20em;
 }
 
 .ma-img-3 {
     width: 40em;
-    max-height: 40em;
+    height: 40em;
 }
+
+.ma-img-4 {
+  width: 55em;
+  height: 60em;
+}
+
+.ma-img-5 {
+  height: 60em;
+}
+
+.ma-img-6 {
+  width: 55em;
+  height: 50em;
+}
+
+.ma-img-7 {
+  height: 50em;
+}
+
+.ma-img-8 {
+  height: 30em;
+}
+
+.ma-img-9 {
+  width: 50em;
+  height: 30em;
+}
+
+.ma-img-10 {
+  width: 50em;
+  height: 58.7em;
+}
+
+.ma-img-11 {
+    height: 25em;
+}
+
+.ma-img-13 {
+  height: 32em;
+}
+
+.ma-img-14 {
+    width: 50em;
+    height: 32em;
+}
+
+.ma-img-15 {
+    width: 50em;
+    height: 58.7em;
+}
+.ma-img-16 {
+    height: 30em;
+}
+.ma-img-17 {
+    height: 27.2em;
+}
+.ma-img-18 {
+    height: 40em;
+    width: 100em;
+}
+
 footer .footer-below {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   padding: 25px 0;
   background-color: rgb(41, 41, 41);
 }
@@ -196,4 +253,7 @@ footer {
 }
 .copy-right {
   padding-top: 1.2em;
+}
+.content {
+  margin-top: 7em;
 }

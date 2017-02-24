@@ -197,6 +197,10 @@ header p {
  }
 
 }
+
+footer {
+  color: white;
+}
 footer .footer-below {
   padding: 25px 0;
   background-color: rgb(41, 41, 41);
@@ -205,4 +209,7 @@ footer .footer-below {
 footer p {
   margin: 0;
   color: white;
+}
+.copy-right {
+  padding-top: 1.2em;
 }
