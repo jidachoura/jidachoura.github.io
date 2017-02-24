@@ -1,4 +1,4 @@
-*{
+rgb(55, 53, 53)rgb(50, 48, 48)*{
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
   html {
@@ -395,6 +395,17 @@ p {
   .i-text-holder a p {
     margin-top: 8em;
   }
+}
+
+footer {
+  color: white;
+}
+footer .footer-above {
+  padding-top: 30px;
+  background-color: rgb(55, 53, 53);
+}
+footer .footer-col {
+  margin-bottom: 50px;
 }
 
 footer .footer-below {
