@@ -140,19 +140,19 @@ header p {
 }
 
 #image1:hover {
-   background-image: url('../img/press/i1-1.jpg');
+   background-image: url('../img/press/i1-1.jpeg');
    background-position: center;
 }
 
 #image2 {
-   background-image: url('../img/press/xx.jpg');
+   background-image: url('../img/press/xx.jpeg');
    background-size: cover;
    height: 250px;
    width: 200px;
 }
 
 #image2:hover {
-   background-image: url('../img/press/i2-1.jpg');
+   background-image: url('../img/press/i2-1.jpeg');
    background-position: center;
 }
 
@@ -164,9 +164,29 @@ header p {
 }
 
 #image3:hover {
-   background-image: url('../img/press/i3-1.jpg');
+   background-image: url('../img/press/i3-1.jpeg');
    background-position: center;
 }
+
+#image4 {
+   background-image: url('../img/press/i4.jpeg');
+   background-size: cover;
+   height: 250px;
+   width: 200px;
+}
+
+#image4:hover {
+   background-image: url('../img/press/i4-1.jpeg');
+   background-position: center;
+}
+
+#image5 {
+   background-image: url('../img/press/i5.jpeg');
+   background-size: cover;
+   height: 250px;
+   width: 200px;
+}
+
 footer .footer-below {
   position: absolute;
   right: 0;
