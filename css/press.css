@@ -187,21 +187,16 @@ header p {
    width: 200px;
 }
 
+footer {
+  color: white;
+}
 footer .footer-below {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   padding: 25px 0;
   background-color: rgb(41, 41, 41);
 }
 
 footer p {
   margin: 0;
-  color: white;
-}
-
-footer {
   color: white;
 }
 .copy-right {
