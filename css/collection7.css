@@ -164,6 +164,12 @@ header p {
   margin-bottom: 1em;
 }
 
+.si-img-top {
+  min-height: 25em;
+  max-height: 35em;
+  width: 100em;
+}
+
 .si-img-2 {
   min-height: 25em;
   max-height: 25em;
